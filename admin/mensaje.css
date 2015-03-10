@@ -1,0 +1,37 @@
+#mensaje {
+    background-color:#D8D8D8;
+    padding: 10px;
+    border-bottom: 3px solid #999999;
+    border-right: 2px solid #999999;
+    border-top: 3px solid #CCCCCC;
+    border-left: 3px solid #CCCCCC;
+    left: 200px;
+    top: 200px;
+    width: 200px;
+    height: 120px;
+    position: absolute;
+    font: 11px Arial, Helvetica, Geneva, sans-serif;
+	z-index: 100;
+	color:#333;
+}
+
+#mensaje h3 {
+    font-size: 14px;
+    font-family: Arial, Helvetica, Geneva, sans-serif;
+    color: #ED1C24;
+    margin: 0px 0px 5px 0px;
+}
+
+#overlay{
+    background-color: transparent;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+#mensaje .tituloMensaje{
+    background-color: green;
+}
