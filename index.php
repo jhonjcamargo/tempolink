@@ -104,18 +104,6 @@ else $pagina="home";
 		</div>
     </div>
 </div>
-<?php //require_once ("footer.php"); ?>
-<div id="footer">
-	<div id="innerfooter">
-    	<ul id="footerItems">
-        	<li>Bogot&aacute; Colombia</li>
-            <li>Comunicate<br />(+571) 7446224</li>
-        </ul>
-		<div id="logos-footer">
-			<img src="images/logo-footer.png" />
-			<img src="images/logo-icontect.png"  />
-		</div>
-    </div>
-</div>
+<?php require_once ("footer.php"); ?>
 </body>
 </html>
