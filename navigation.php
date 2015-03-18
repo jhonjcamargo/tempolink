@@ -43,10 +43,10 @@ $numRedes = count($redes);
     <?php }
 	}?>
 </ul>
+<?php if ($pagina =="home"){?> 
 <div id="banner">
 	<a href="admin/index.php" class="empleados" target="_blank"></a>
 	<a href="admin/index.php" class="empresas" target="_blank"></a>
-
 	<div id="slideBanner">
     	<img src="images/slide/1.jpg" alt="TempoLink" />
     	<img src="images/slide/2.jpg" alt="TempoLink" />
@@ -59,6 +59,7 @@ $numRedes = count($redes);
         <img src="images/slide/9.jpg" alt="TempoLink" />
         <img src="images/slide/10.jpg" alt="TempoLink" />
     </div>
+
 	<?php /*?><div id="spot">
     	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="978" height="366" id="banner" align="middle">
 				<param name="movie" value="images/<?php echo($banner->getValor()); ?>" />
@@ -103,10 +104,10 @@ $numRedes = count($redes);
         </ul>
         */ ?>
     </div>
-    
 </div>
 <ul class="tabsPasos">
     <li><a href="index.php?pag=registro"><img src="images/registrate.png" /></a></li>
     <li><a href="index.php?pag=perfil"><img src="images/carga.png" /></a></li>
     <li class="post"><a href="index.php?pag=listadoOfertas"><img src="images/postulate.png" /></a></li>
 </ul>
+<?php }?>    

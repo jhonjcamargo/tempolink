@@ -83,10 +83,9 @@ else $pagina="home";
 
 <body>
 <div id="header">
-    <div class="wrapper">
-    	<?php require_once ("navigation.php"); ?>
-    </div>
+   	<?php require_once ("menu.php"); ?>
 </div>
+<!-- ESTE ES UN CAMBIO EN EL INDEX -->
 <div id="main">
     <div id="contenido">
         <div class="cajas">
@@ -104,6 +103,6 @@ else $pagina="home";
 		</div>
     </div>
 </div>
-<?php require_once ("footer.php"); ?>
 </body>
+<?php require_once ("footer.php"); ?>
 </html>
