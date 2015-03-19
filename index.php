@@ -32,6 +32,7 @@ else $pagina="home";
 <script type="text/javascript" src="js/jquery.easing.js"></script>
 <script type="text/javascript" src="js/jquery.form.js"></script>
 <script type="text/javascript" src="js/coin-slider.js"></script>
+<script src="js/jqueryCycle.js" type="text/javascript"></script>
 <link rel="stylesheet" href="js/coin-slider-styles.css" type="text/css" />
 <link href="SpryAssets/SpryCollapsiblePanel.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
@@ -50,19 +51,17 @@ else $pagina="home";
 		 	});
 
 			$('#slideBanner').coinslider({ 
-				width: 978,
-				height: 366,
+// 				width: 1024,
+// 				height: 350,
 				navigation: true,
 				delay: 5000,
 				hoverPause: false 
 			});
 
-			$('#frmInfoLab').ajaxForm({
-			  	target: '#infoLab',
-			  	success: function() {
-					$('#infoLab').fadeIn('slow');
-			  	}
-			});
+			$('#pics').cycle({ 
+			    fx:    'fade', 
+			    speed:  2000 
+			 });
 
 			$('#frmInfoAcad').ajaxForm({
 			  	target: '#infoAcad',
@@ -85,6 +84,7 @@ else $pagina="home";
 <div id="header">
    	<?php require_once ("menu.php"); ?>
 </div>
+<?php require_once ("rotador.php"); ?>
 <!-- ESTE ES UN CAMBIO EN EL INDEX -->
 <div id="main">
     <div id="contenido">

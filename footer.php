@@ -13,9 +13,9 @@
 </div> -->
 <div class="footer">
 	<div class="footer_bottom">
-		<a><img class="logoSmall" src="/images/tempoLink.png" alt="Tempolink" /></a>
-		<p>Direcci&oacute;n: Cra. 47 # 124 - 47<br>Correo: admin@tempolink.com<br>Bogot&aacute;<br>
-			Todos los derechos reservados Tempolink 2015</p>
-		<a class="otrologo"><img src="/images/logo-footer.png" alt="" /></a>
+		<a><img class="logoSmall" src="/images/Tempolink_logo.png" alt="Tempolink" /></a>
+		<p><strong>Dirección:</strong> Cra. 47 # 124 - 47<br><strong>Correo:</strong> admin@tempolink.com<br>Bogotá<br>
+			<strong>Todos los derechos reservados Tempolink 2015</strong></p>
+		<a class="otrologo"><img src="/images/LOGO-HUMAN-LINK.png" alt="" /></a>
 	</div>
 </div>
