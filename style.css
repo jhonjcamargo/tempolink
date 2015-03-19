@@ -29,9 +29,9 @@ h1,h2,h3,h4,h5,h6{
 	z-index: 10000;
 	top: 0;
 	left: 0;
-	height: 140px;
+	height: 115px;
 	width: 100%;
-	background: #f23a3a;
+	background: url(images/menu.png) repeat-x;
 }
 #header .wrapper {
     z-index: 1;
@@ -41,7 +41,7 @@ h1,h2,h3,h4,h5,h6{
 	padding:0 10px;
 	margin:0 auto;
 	position:relative;
-	margin-top:40px;
+	margin-top:20px;
 }
 .logo{
 	width: 100px;
@@ -103,13 +103,13 @@ h1,h2,h3,h4,h5,h6{
   	margin-top: 10px;
 }
 .menu .link {
-	color: #fff;
+	color:#fff;
 	float: left;
-	font-size: 20px;
+	font-size: 16px;
   	font-weight: bold;
   	font-family: 'Calibri', Arial, Helvetica, Geneva, sans-serif;
 	text-decoration: inherit;
-	margin: 50px 9px;
+	margin: 25px 9px;
 }
 
 .menu .link:hover, .menu .active {
@@ -204,7 +204,7 @@ h1,h2,h3,h4,h5,h6{
 /*CUERPO y CONTENIDO*/
 
 #main{
-	background-color:#F4F4F6;
+	
 	overflow:hidden;
 	  margin: 140px 0;
 }
