@@ -125,11 +125,19 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 50px 9px;
 }
 
+.menu a.select {
+	font-size: 25px;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	color: rgba(255, 0, 0, 0.22);
+	text-shadow: 1px 2px #D00000;
+}
+
 .menu .link:hover, .menu .active {
 	color: #999 !important;
 }
 
-#menu li {
+#menu {
 	height: 25px;
 	background-image: url('images/arrow.png');
 	background-position: center bottom;
@@ -140,21 +148,21 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 5px;
 }
 
-#menu li a {
+#menu a {
 	text-decoration: none;
 	color: #333333;
 	display: block;
 	height: 30px;
 }
 
-#menu li a:hover {
+#menu a:hover {
 	color: #ED1C24;
 	background-image: url('images/arrowHover.png');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 }
 
-#menu li a.select {
+#menu a.select {
 	background-image: url('images/arrowHover.png');
 	background-position: center bottom;
 	background-repeat: no-repeat;
