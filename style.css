@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	height: 140px;
 	width: 100%;
-	background: url("images/header.png") repeat transparent;
+	background: url(images/menu.png) repeat-x;
 }
 
 #header .wrapper {
@@ -115,22 +115,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu .link {
-	color: #fff;
+	color:#fff;
 	float: left;
-	font-size: 20px;
-	font-weight: bold;
-	font-family: 'Calibri', Arial, Helvetica, Geneva, sans-serif;
+	font-size: 16px;
+  	font-weight: bold;
+  	font-family: 'Calibri', Arial, Helvetica, Geneva, sans-serif;
 	text-decoration: inherit;
-	text-shadow: 1px 2px #B2B2B2;
-	margin: 50px 9px;
+	margin: 25px 9px;
 }
 
 .menu a.select {
-	font-size: 25px;
-	background-position: center bottom;
-	background-repeat: no-repeat;
-	color: rgba(255, 0, 0, 0.22);
-	text-shadow: 1px 2px #D00000;
+	color:#f00;
+	font-size: 18px;
+  	font-weight: bold;
+  	font-family: 'Calibri', Arial, Helvetica, Geneva, sans-serif;
+	text-decoration: inherit;
+	margin: 25px 9px;
 }
 
 .menu .link:hover, .menu .active {
@@ -531,7 +531,7 @@ FIN FOOTER*/
 .footer {
 	width: 100%;
 	height: 140px;
-	padding: 45px 0 5px;
+	padding: 0 5px;
 	background: #413A3B;
 }
 

@@ -15,7 +15,7 @@ $numRedes = count($redes);
         	<a id="inline" href="#data" class="cuenta">Iniciar sesión</a>
  			<a href="index.php?pag=registro">Registrarse</a>
 		<?php }
-		else {
+		else { 
 			echo('
 			<a href="index.php?pag=perfil">Mi perfil</a>
 			<a href="index.php?pag=logout" class="cuenta">Logout</a>');	
