@@ -117,20 +117,22 @@ h1, h2, h3, h4, h5, h6 {
 .menu .link {
 	color:#fff;
 	float: left;
-	font-size: 16px;
-  	font-weight: bold;
-  	font-family: 'Calibri', Arial, Helvetica, Geneva, sans-serif;
-	text-decoration: inherit;
-	margin: 25px 9px;
-}
-
-.menu a.select {
-	color:#f00;
 	font-size: 18px;
   	font-weight: bold;
   	font-family: 'Calibri', Arial, Helvetica, Geneva, sans-serif;
 	text-decoration: inherit;
-	margin: 25px 9px;
+	margin: 26px 30px;
+  	padding: 5px 5px;
+}
+
+.menu a.select {
+	color:#f00;
+	font-size: 20px;
+  	font-weight: bold;
+  	font-family: 'Calibri', Arial, Helvetica, Geneva, sans-serif;
+	text-decoration: inherit;
+	margin: 25px 30px;
+	padding: 5px 5px;
 }
 
 .menu .link:hover, .menu .active {
