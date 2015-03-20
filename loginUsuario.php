@@ -10,7 +10,7 @@
             <td><input type="text" name="txtUser" id="txtUser" class="input" style="width:150px;"  /></td>
         </tr>
         <tr>
-            <td class="item">Contrase&ntilde;a:</td>
+            <td class="item">Contraseña:</td>
             <td><input type="password" name="txtPass" id="txtPass" class="input" style="width:150px;"/></td>
         </tr>
         <tr>
