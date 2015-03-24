@@ -2,13 +2,14 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 
 body {
  font-family: helvetica, arial, sans-serif;
- background: #e3e3e3;
+ background: url(../images/pattern_183.png) repeat;
  text-align: center;
 }
 
 .contenedor{
 	width:1024px;
 	margin:auto;
+	box-shadow: 3px 2px 5px ;
 	background:#FFF !important;
 	
 }
@@ -27,10 +28,25 @@ body {
  background: #333;
  float: left;
  margin: 0;
-  padding: 12px 0 0 20px;
+ padding:10px 0 0 20px;
  width: 100px;
  border-bottom: none;
- color:#FFF;
+ color:#999;
+}
+
+.sesion{
+	float:left;
+	margin-top:16px;
+	margin-left:213px;
+	font-size:9px;
+	color:#999;
+	}
+
+.sesion a{
+	color:#999;
+	text-decoration:none;
+	
+	
 }
 
 .menu {
@@ -53,9 +69,9 @@ body {
 }
 
 .menu li a {
- padding:10px 2em;
+ padding:10px 1em;
  text-decoration: none;
- color: white;
+ color: #CCC;
 /* background: #292929;
  background: -moz-linear-gradient(top, black, #3c3c3c 1px, #292929 25px);
  background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, #3c3c3c), to(#292929));*/
@@ -67,11 +83,10 @@ body {
 
 .menu li a:hover {
  background: #585858;
+ color:#999;
  background: -moz-linear-gradient(top, #585858, #333);
  background: -webkit-gradient(linear, left top, left bottom, from(#585858), to(#333));
 }
-
-
 
 /**Contenido **/
 
@@ -79,8 +94,8 @@ body {
 	
 	padding:20px;
 	width:1024px;
-	height:80px;
-	margin-bottom:200px;
+	height:240px;
+	
 	color:#999;
 	
 }
@@ -100,44 +115,63 @@ body {
 .contenidoa{
 	width:570px;
 	float:left;
-	min-height:200px;
-	border-right: 1px solid #3c3c3c;
+	min-height:180px;
+	border-right: 1px dashed #CCCCCC;
 	padding:20px 15px;
 	text-align:justify;
 	}
 
 .contenidob{
 	width:330px;
-	min-height:200px;
+	min-height:180px;
 	float:left;
 	padding:20px;
 	text-align:justify;
 	
 }
+.contenidob-f{
+	width:90px;
+	height:90px;
+	float:left;
+	padding:0 5px 0 0;
+	
+	
+}
 
 .titulo{
-	font-size:16px;
+	font-size:19px;
 	font-weight:bold;
+	color: #A72626 ;
 	}
-
 
 /**prefooter **/
 
 .prefootera{
-	height:220px;
-	background: #AE0000;
-	margin-top:5px !important;
+	height:260px;
+	background: #A72626;
+	
 }
 
 .inside-prefa{
 	margin-top: 20px;
-	width: 230px;
+	margin-left:56px;
+	width: 250px;
 	padding:20px;
-	color:#fff;
+	color:#999;
 	float:left;
-	height:140px;
+	height:200px;
 	text-align:center;
 	font-size:12px;
+
+}
+
+.inside-prefa span{
+	
+	color:#fff;
+	text-align:center;
+	font-size:20px;
+	margin-bottom:5px;
+	font-weight:bold;
 
 }
 
@@ -145,35 +179,78 @@ body {
 	margin-top: 20px;
 	width: 170px;
 	padding:20px;
-	color:#fff;
+	color:#999;
 	float:left;
-	border-left: 1px solid #B5E0F0;
-	text-align:center;
-	height:140px;
+	border-left: 1px solid #9D1515 ;
+	text-align:justify;
+	height:200px;
 	font-size:12px;
 
 }
 
-.prefooterb{
+.inside-prefb span{
+	
+	color:#fff;
+	text-align:center;
+	font-size:17px;
+	margin-bottom:5px;
+
+}
+
+.prefooterc{
 	
 	width: auto;
-	padding:20px;
-	color:#fff;
+	padding:20px 80px;
+	color:#999;
 	margin:auto;
 	font-size:12px;
 	height:100px;
-	background: #AE0000;
-	/*#27C6D8*/
+	background: #A72626;
 
 }
 
 .prefootline{
 	
-	width: 850px;
+	width: 870px;
 	margin:auto;
-	border-top: 1px solid #B5E0F0;
+	border-top: 1px solid #9D1515;
 	
 
+}
+/*boton link**/
+
+.boton-pf{
+	border-radius:2px;
+	padding:8px;
+	margin-top:15px;
+	height:auto;
+	width:auto;
+	font-weight:bold;
+	text-decoration:none;
+	color:#ccc !important;
+	background: #AB3232 ;
+	
+	}
+.boton-pf:hover{
+    background:#A12626;
+}
+
+
+.boton-co{
+	border-radius:2px;
+	padding:8px;
+	margin-top:15px;
+	height:auto;
+	width:auto;
+	font-weight:bold;
+	text-decoration:none;
+	color:#ccc !important;
+	background: #A72626 ;
+	
+	}
+	
+.boton-co:hover{
+    background:#C12626;
 }
 
 
@@ -181,5 +258,39 @@ body {
 /* foter */
 footer{
 	height:100px;
-	background:#333;}
+	background:#333;
+}
+.footer-txt{
+	padding:36px 0 0 40px;
+	float:left;
+	color:#FFF;
+	width:600px;
+	height:50px;
+	text-align:left
+}
+.footer-icons{
+	padding:20px;
+	margin-right:45px;
+	float:right;
+	color:#FFF;
+	width:200px;
+	height:50px;
+	
+}
+
+.icons{
+	width:48px;
+	height:48px;
+	float:right;
+	padding:5px;
+	}
+
+
+.icons hover{
+	background:#999;
+	
+	
+	
+	
+}
 

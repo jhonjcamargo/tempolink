@@ -1,4 +1,4 @@
-<link href="style.css" rel="stylesheet" type="text/css" />
+<!--  <link href="style2.css" rel="stylesheet" type="text/css" /> -->
 <div style="width:300px; height:220px;">
 <form name="frmLogin" id="frmLogin" method="post" action="index.php?pag=login">
     <table id="tablaGen" style="width:300px;" align="center">
