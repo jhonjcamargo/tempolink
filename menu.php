@@ -18,13 +18,12 @@ $numRedes = count($redes);
 	  	<?php } else { ?>
 			<a href="index.php?pag=perfil">Mi perfil</a> - <a href="index.php?pag=logout" class="cuenta">Logout</a>	
 		<?php }?>
-	</div>
-  	<ul class="menu">
-		<li><a class="<?php if($pagina == 'home'){ echo 'class="seleccionado"'; }?>" href="index.php" >INICIO</a></li>
-	    <li><a href="index.php?pag=pagina&id=1&padre=1" <?php /*if($_GET["padre"] == 1){ echo 'class="seleccionado"'; }*/ ?>>QUIÉNES SOMOS</a></li>
-	    <li><a href="index.php?pag=pagina&id=5&padre=5" <?php /*if($_GET["padre"] == 5){ echo 'class="seleccionado"'; } */ ?>>PRODUCTOS Y SERVICIOS</a></li>
-	    <li><a href="index.php?pag=listadoOfertas" <?php if($pagina == 'listadoOfertas'){ ?>class="seleccionado"<?php } ?>>OFERTAS LABORALES</a></li>
-	    <li><a href="index.php?pag=empresas" <?php if($pagina == 'empresas'){ ?>class="seleccionado"<?php } ?>>EMPRESAS</a></li>
-	    <li><a href="index.php?pag=contacto" <?php if($pagina == 'contacto'){ ?>class="seleccionado"<?php } ?>>CONTÁCTENOS</a></li>	
+	</div>  	<ul class="menu">
+		<li><a class="<?php if($pagina == 'home'){ echo 'class="seleccionado"'; }?>" href="index.php" >Inicio</a></li>
+	    <li><a href="index.php?pag=pagina&id=1&padre=1" <?php /*if($_GET["padre"] == 1){ echo 'class="seleccionado"'; }*/ ?>>Nosotros</a></li>
+	    <li><a href="index.php?pag=pagina&id=5&padre=5" <?php /*if($_GET["padre"] == 5){ echo 'class="seleccionado"'; } */ ?>>Productos y servicios</a></li>
+	    <li><a href="index.php?pag=listadoOfertas" <?php if($pagina == 'listadoOfertas'){ ?>class="seleccionado"<?php } ?>>Oferts laborales</a></li>
+	    <li><a href="index.php?pag=empresas" <?php if($pagina == 'empresas'){ ?>class="seleccionado"<?php } ?>>Empresas</a></li>
+	    <li><a href="index.php?pag=contacto" <?php if($pagina == 'contacto'){ ?>class="seleccionado"<?php } ?>>Contacto</a></li>	
 	</ul>
 </div>

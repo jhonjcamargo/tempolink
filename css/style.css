@@ -180,7 +180,7 @@ body {
 }
 
 .contenedor {
-	width: 90%;
+	width: 1000px;
 	margin: auto;
 	box-shadow: 3px 2px 5px;
 	background: #FFF !important;
@@ -201,7 +201,7 @@ body {
 .cont-menu {
 	width: auto;
 	background: #333;
-	height: 40px;
+	height: 45px;
 }
 
 .seleccionado {
@@ -212,8 +212,8 @@ body {
 	background: #333;
 	float: left;
 	margin: 0;
-	padding: 10px 0 0 20px;
-	width: 100px;
+	padding: 14px 0 0 20px;
+	width: 80px;
 	border-bottom: none;
 	color: #999;
 }
@@ -221,8 +221,8 @@ body {
 .sesion {
 	float: left;
 	margin-top: 16px;
-	margin-left: 116px;
-	font-size: 12px;
+	margin-left: 145px;
+	font-size: 11px;
 	color: #999;
 }
 
@@ -250,7 +250,7 @@ body {
 }
 
 .menu li a {
-	padding: 10px 1em;
+	padding: 13px 12px;
 	text-decoration: none;
 	color: #CCC;
 	/* background: #292929;
