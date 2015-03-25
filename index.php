@@ -88,31 +88,28 @@ $(document).ready(function() {
 	<?php require_once ("rotador.php"); ?>
 	<!--   ************************************Contenido ************************ -->
 	 <div class="contenido2">
-	<div class="widthWrap">
-		<div style="display:none;">
-			<div id="data">
-			<?php require_once ("loginUsuario.php"); ?>
-	        </div>               
-	  	</div>
-	
-	<?php require_once ($pagina.".php"); ?>
-	</div>
-		
-<!-- 
-	<div class="contenido">
-		<div class="contenidoa">
-		    <span class="titulo">Titulo aca</span>
-		    <br><br>
-			    Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc 
-			    cibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc <BR><BR>
-		    <a href="" class="boton-co">Ver mas</a></div>
-		   
-		    <div class="contenidob">
-		        <span class="titulo"><center>Titulo aca</center></span><br>
-		      <img src="images/logo-footer2.png"  class="contenidob-f" >Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc 
-		   </div>
-	</div>
--->	
+		<div class="widthWrap">
+			<div style="display:none;">
+				<div id="data">
+				<?php require_once ("loginUsuario.php"); ?>
+		        </div>
+		  	</div>
+			<div class="contenido">
+			Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc
+			<!-- <div class="contenidoa">
+				    <span class="titulo">Titulo aca</span>
+				    <br><br>
+					    Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc 
+					    cibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc <BR><BR>
+				    <a href="" class="boton-co">Ver mas</a></div>
+				   
+			    <div class="contenidob">
+			        <span class="titulo"><center>Titulo aca</center></span><br>
+			      <img src="images/logo-footer2.png"  class="contenidob-f" >Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc 
+			   </div>
+			</div> -->	
+		<?php require_once ($pagina.".php"); ?>
+		</div>
 	</div>
 <div class="widthWrap">
 		<?php require_once ("footer.php");?>

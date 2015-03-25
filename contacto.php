@@ -1,6 +1,5 @@
 <script type='text/javascript' src='https://www.google.com/jsapi'></script>
-<script type="text/javascript"
-	src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <?php if (!isset($_GET["msg"])) { ?>
 <style>
 .formcontactos {
@@ -60,7 +59,7 @@
 }
 
 #map-canvas {
-	width: 500px;
+	width: 470px;
 	height: 491px;
 	float: left;
 	margin: 0 0 0 0;
@@ -137,7 +136,7 @@ $(document).ready(function() {
 </script>
 <script type='text/javascript'>
 var map;
-var prueba = '/images/redes/facebook.png';
+var prueba = '/images/redes/pin.png';
 
 var mapOptions = {
     zoom : 5,
