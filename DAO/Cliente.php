@@ -15,12 +15,14 @@ class Cliente implements iBaseDatos {
         $_id,
 		$_orden,
         $_cliente,
-        $_thumb){
+        $_thumb,
+	 	$_link){
 			
         $this->id           = $_id;
         $this->orden    	= $_orden;
 		$this->cliente    	= $_cliente;
         $this->thumb        = $_thumb;
+        $this->link			= $_link;
     }
 	
 	
@@ -36,7 +38,8 @@ class Cliente implements iBaseDatos {
                         $fila["id"],
                         $fila["orden"],
                         $fila["cliente"],
-						$fila["thumb_img"]
+						$fila["thumb_img"],
+						$fila["link"]
                     )
                 );
             }
@@ -59,7 +62,8 @@ class Cliente implements iBaseDatos {
                 $rs[0]["id"],
                 $rs[0]["orden"],
                 $rs[0]["cliente"],
-				$rs[0]["thumb_img"]
+				$rs[0]["thumb_img"],
+				$rs[0]["link"]
             );
             return $cliente;
         }
@@ -80,6 +84,7 @@ class Cliente implements iBaseDatos {
                 "orden = ".func_get_arg(0).", ".
                 "cliente = '".func_get_arg(1)."', ".
 				"thumb_img = '".func_get_arg(2)."'";
+            	"link = '".func_get_arg(3)."'";
 				
 			$conexion->consulta( $consulta );
         }
@@ -159,6 +164,22 @@ class Cliente implements iBaseDatos {
                 WHERE id = ".$this->id);
         }
     }
+    
+    public function getLink() {
+    	return $this->link;
+    }
+    
+    
+    public function setLink( $_link) {
+    	if( strcmp( $this->link, $_link) != 0 ) {
+    		$this->link = $_link;
+    		$conexion = Conexion::getInstance();
+    		$conexion->consulta(
+    				"UPDATE cliente
+                SET link  = '".$this->link."'
+                WHERE id = ".$this->id);
+    	}
+    }
 	
 	
 	
@@ -169,6 +190,8 @@ class Cliente implements iBaseDatos {
     private $cliente;
 	
     private $thumb;
+	
+    private $link;
 	
 	
 	

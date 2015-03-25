@@ -160,6 +160,11 @@ function addMarker(lat,lon){
     });    
 }
 </script>
+<script>
+$(function(){
+    initialize();
+});
+</script>
 <h3>Contáctenos</h3>
 <div class="homeText">
 	<p>Para nosotros es muy importante conocer su opinión, por esto hemos

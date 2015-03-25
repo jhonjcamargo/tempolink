@@ -111,9 +111,9 @@ $(document).ready(function() {
 		<?php require_once ($pagina.".php"); ?>
 		</div>
 	</div>
-<div class="widthWrap">
+	<div class="widthWrap">
 		<?php require_once ("footer.php");?>
-</div>
+	</div>	
 </div>
 
 </body>
