@@ -111,7 +111,7 @@ $(document).ready(function() {
 				    <br/><br/>
 				    Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc 
 				    cibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc <BR><BR>
-				    <a href="" class="boton-co">Ver mas</a>
+				    <a href="index.php?pag=pagina&id=1&padre=1" class="boton-co">Ver mas</a>
 				</div>
 			<?php }require_once ($pagina.".php"); ?>
 	         <?php if ($pagina =="home"){?> 	
@@ -120,7 +120,7 @@ $(document).ready(function() {
 			         <br><br>
 			            Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc 
 			            cibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc <BR><BR>
-			            <a href="" class="boton-co">Ver mas</a>
+			            <a href="index.php?pag=pagina&id=1&padre=1" class="boton-co">Ver mas</a>
 			    </div>
 			</div>
 			<?php }?>

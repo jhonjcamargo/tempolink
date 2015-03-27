@@ -71,14 +71,14 @@ $numClientes = count($cliente);
 
 .item .label {
 	width: 100%;
-	height: auto;
-	background: #F4D7D7;
-	background-size: 120% 100%;
+	height: 14px;
+	background: url("/images/newimg/etiquetaempresa.png") repeat;
+	background-size: 100% 100%;
 	text-align: center;
-	margin-top: 5px;
-	padding: 4px 0;
+	margin-top: -13px;
+	padding: 14px 0;
 	position: absolute;
-	bottom: -28px;
+	bottom: -10px;
 	left: 0;
 	color: #fff;
 }
@@ -92,14 +92,17 @@ $numClientes = count($cliente);
 	line-height: 14px;
 }
 
-.item .label p{
+.item .label a{
 	width: 90%;
-	padding: 0;
-	margin:  0px 5%;
 	color: #fff;
-	font: 12px 'f1';
+	font: 18px 'f1';
 	text-align: center;
+	text-transform: uppercase;
+  	font-style: italic;
+  	text-decoration: inherit;
 }
+
+
 
 .item .label span {
 	font-size: 10px;

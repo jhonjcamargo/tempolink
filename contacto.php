@@ -139,7 +139,7 @@ var map;
 var prueba = '/images/redes/pin.png';
 
 var mapOptions = {
-    zoom : 5,
+    zoom : 11,
     center : {lat: 4.664334907790714, lng: -74.0548266443443},
 };
                 	

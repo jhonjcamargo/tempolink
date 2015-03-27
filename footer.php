@@ -2,28 +2,64 @@
 	<div class="wrapper">
 	
 		<div class="inside-prefa"> 
-			<span>titulo</span><br><br>
-	        Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc Eu sit tincidunt inc cibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc
+			<div style="margin: 0 0px 0px 15px;">
+				<img alt="" src="/images/newimg/iconRH.png">
+				<span>Recursos Humanos</span><br><br>
+			</div>
+	        Para nuestra compañia es muy importante la parte del reclutamiento para las empresas aliadas, por esta razon nos encargamos de realizar pruebas tecnicas y psicologicas para evaluar un excelente candidato. ¡No te quedes por Fuera Suscribete ahora!
 	  	</div>
 	    <div class="inside-prefb">
-	    	<span>Registrate</span><br><br>
-	    	Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur,  Qui ut wisi vocibus suscipiantur  Qui ut wisi vocibus suscipiantur<br><br> 
-	    	<center><a href="" class="boton-pf">Registrarse</a></center>
+	    	<div style="margin: 0 0px 0px 15px;">
+				<img alt="" src="/images/newimg/adduser.png">
+	    		<span>Regístrate</span><br><br>
+	    	</div>	
+	    	Para que pueda acceder a nuestro portal de busqueda de empleo es necesario estar previamente registrado, para acceder a todas las propuestas ingresa al boton inferior.<br><br> 
+	    	<center><a href="index.php?pag=registro" class="boton-pf">Registrarse</a></center>
 	    </div>
 	    <div class="inside-prefb">
-	    	<span>Carga tu hoja de vida</span><br><br>
-	    	Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc
+	    	<div style=" margin: 0 0px 0px 15px;">
+				<img alt="" src="/images/newimg/cv.png">
+	    		<span>Cargar C.V</span><br><br>
+	    	</div>	
+	    	Al mantener actualizada su hoja de vida, tienes mas opciones de ser seleccionado, por esta razon es necesario que actualices tu informacion.
 	    </div>
 	    <div class="inside-prefb">
-	    	<span>¡Postulate!</span><br><br>
-	        Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt ince #B92424   #5C2E2E #A72626
+	    	<div style=" margin: 0 0px 0px 15px;">
+				<img alt="" src="/images/newimg/apply.png">
+	    		<span>¡Postulate!</span><br><br>
+	    	</div>	
+	        Para poder aplicar a las ofertas publicadas necesariamente tiene que iniciar sesión- 
 		</div><br>
 	</div>	
 </div><!--fin prefootera-->
 
 <!--   ************************************Footer ************************ -->
 <footer>
-	<div class="footer-txt">
+	<div class="wrapper">
+		<div class="Wddp">
+			<div class="tag_f">
+				<img alt="" src="images/newimg/ico_ubicacion.png" />
+				<div>
+					<h5>Ubicacion:</h5>
+					<p class="italic">Cr 7 # 32-83 of 802 <br> Bogotá – Colombia</p>
+				</div>
+			</div>
+			<div class="tag_f">
+				<img alt="" src="images/newimg/ico_correo.png" />
+				<div>
+					<h5>Contacto:</h5>
+					<p class="italic">PBX: (571) 744 6224<br> Mail: comercial1@tempolink.com.co</p>
+				</div>
+			</div>
+
+			<a class="logosfooter" href="#" > 
+			<img alt="" src="images/newimg/LOGO-HUMAN-LINK.png" />
+			</a>
+		</div>
+	</div>
+
+
+<!-- <div class="footer-txt">
     	<p style="color: #858585; font-weight: normal; font-size: 16px; width: 340px;">Contacto: comercial1@tempolink.com.co</p>
         <p style="margin: 6px 0 0; font-size: 12px; color: #666;"> Todos los derechos reservados TEMPOLINK & HUMAN LINK.</p>
     </div>   
@@ -36,12 +72,12 @@
 	    		<img src="images/facebook-gray.png" width="48" height="48">
 	    	</a>
 	    </div>
-	    <div class="logos" style="width: 237px; height: 82px; float: left; margin: -23px 5px;">
+	    <div class="logos" style="  width: 143px; height: 34px; float: right; margin: 18px 8px;">
 		    <a href="index.html" >
-		    	<img src="images/LOGO-HUMAN-LINK.png">
+		    	<img src="images/newimg/LOGO-HUMAN-LINK.png">
 		    </a>
 	    </div>
-    </div>
+    </div> -->	
 
 </footer>
 

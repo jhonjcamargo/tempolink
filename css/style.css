@@ -195,6 +195,70 @@ body {
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
+	position: relative;
+}
+.Wddp {
+	width: 90%;
+	height: auto;
+	float: left;
+	padding: 10px 5%;
+	text-align: center;
+	margin: -7px 0;
+}
+
+tag_f {
+	width: 276px;
+	height: auto;
+	float: left;
+	margin: 0 10px;
+}
+
+.tag_f img {
+	width: 23px;
+	height: auto;
+	float: left;
+	margin: 15px 0;
+}
+
+.tag_f div {
+	width: 220px;
+	height: 90px;
+	float: left;
+	text-align: left;
+	margin: -15px 0;
+}
+
+.logosfooter {
+	width: 145px;
+  	height: 90px;
+  	float: right;
+  	margin-right: 0px;
+}
+
+.logosfooter img {
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 23% 0px;
+	
+}
+
+.tag_f div h5 {
+	width: 90%;
+	height: 1px;
+	float: left;
+	font-size: 18px;
+	color: #CFCFCF;
+	padding: 0 5%;
+}
+
+.tag_f div p {
+	width: 90%;
+	height: auto;
+	float: left;
+	font-size: 12px;
+	color: #CFCFCF;
+	padding: 0 5%;
 }
 
 /* MENU */
@@ -303,6 +367,7 @@ body {
 }
 
 .contenido2 {
+	background: url("/images/newimg/textura.png") repeat !important;
 	padding: 10px;
 	width: 900px;
 	color: #999;
@@ -354,14 +419,14 @@ body {
 
 .inside-prefa {
 	margin-top: 20px;
-	margin-left: 10%;
+	margin-left: 4%;
 	width: 25%;
-	padding: 20px;
-	color: #999;
+	padding: 10px;
+	color: #E2E2E2;
 	float: left;
 	height: 200px;
-	text-align: center;
-	font-size: 12px;
+	text-align: justify;
+	font-size: 14px;
 }
 
 .inside-prefa span {
@@ -374,14 +439,14 @@ body {
 
 .inside-prefb {
 	margin-top: 20px;
-	width: 15%;
+	width: 18%;
 	padding: 20px;
-	color: #999;
+	color: #E2E2E2;
 	float: left;
 	border-left: 1px solid #9D1515;
 	text-align: justify;
 	height: 200px;
-	font-size: 12px;
+	font-size: 13px;
 }
 
 .inside-prefb span {
@@ -582,11 +647,11 @@ footer {
 }
 
 .t_left {
-	text-align: left !important;
+	text-align: justify !important;
 }
 
 .t_right {
-	text-align: right !important;
+	text-align: justify !important;
 }
 
 .txtAcom, .txtAcom2 {

@@ -24,7 +24,7 @@
             
 			<div id="wrap" class="wrap">
 				<div class="estilo">
-					 <img class="estilo__img" src="images/slide/12.jpg" /> 
+					 <img class="estilo__img" src="images/newimg/Portada-HL.png" /> 
 					<!--<img class="estilo__img" src="images/newimg/principal.png" />-->
 					<div >
 						<ul id="centroDimensionar" class="centroDimensionar">
@@ -33,7 +33,7 @@
 			</div>
 					<header class="txt-tempolink">
 						<h1><span>BIENVENIDO</span>
-                        <a href="index.php" style="color:#FFF !important;">Tempolink & Humanlink</a> <i>Nos encargamos de desarrollar estrategias en gestión humana para la potencializar el área, haciéndola llegar a ser Business Partner de la compañía</i></h1>
+                        <a href="index.php" style="color:#FFF !important;">Tempolink | Humanlink</a> <i>Nos encargamos de desarrollar estrategias en gestión humana para la potencializar el área, haciéndola llegar a ser Business Partner de la compañía</i></h1>
                         <!-- <a href="index.php" style="color:#FFF !important;">Humanlink</a> <i>En Tempolink desarrollamos en conjunto con la empresa, la estrategia de selección del talento humano y todo el proceso de contratación necesario para desarrollar la operación de nuestro cliente.<a href="#">Ola k mira, ola k kuenta..</a></i></h1> --> 
 					</header>
 				</div>
