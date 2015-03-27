@@ -20,7 +20,7 @@
 	float: left;
 	font-size: 18px;
 	font-family: 'helveticac';
-	color: #A92626;
+	color: #999;
 	margin: 29px 15px 0 15px;
 }
 

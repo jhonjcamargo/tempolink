@@ -205,12 +205,7 @@ body {
 }
 
 .seleccionado {
-	background: #717171;
-	float: left;
-	margin: 0;
-	padding: 14px 0 0 20px;
-	border-bottom: none;
-	color: #999;
+	background: #585858;
 }
 
 .logo {
@@ -226,7 +221,7 @@ body {
 .sesion {
 	float: left;
 	margin-top: 16px;
-	margin-left: 100px;
+	margin-left: 145px;
 	font-size: 11px;
 	color: #999;
 }
@@ -258,6 +253,9 @@ body {
 	padding: 13px 12px;
 	text-decoration: none;
 	color: #CCC;
+	/* background: #292929;
+ background: -moz-linear-gradient(top, black, #3c3c3c 1px, #292929 25px);
+ background: -webkit-gradient(linear, left top, left 25, from(black), color-stop(4%, #3c3c3c), to(#292929));*/
 	border-right: 1px solid #3c3c3c;
 	border-left: 1px solid #292929;
 	border-bottom: 1px solid #232323;
@@ -297,7 +295,7 @@ body {
 /**Contenido **/
 .contenido {
 	padding: 20px;
-	width: 97%;
+	width: 1024px;
 	height: 240px;
 	color: #999;
 }
@@ -315,29 +313,27 @@ body {
 }
 
 .contenidoa {
-	width: 48%;
+	width: 570px;
 	float: left;
 	min-height: 180px;
 	border-right: 1px dashed #CCCCCC;
-	padding: 25px 5px;
+	padding: 20px 15px;
 	text-align: justify;
 }
 
-.contenidob{
-	width:45%;
-	height:420px;
-	float:right;
-	padding:20px;
-	
-	
+.contenidob {
+	width: 330px;
+	min-height: 180px;
+	float: left;
+	padding: 20px;
+	text-align: justify;
 }
-.contenidob-f{
-	width:90px;
-	height:90px;
-	float:left;
-	padding:0 5px 0 0;
-	
-	
+
+.contenidob-f {
+	width: 90px;
+	height: 90px;
+	float: left;
+	padding: 0 5px 0 0;
 }
 
 .titulo {
@@ -449,7 +445,7 @@ footer {
 	padding: 20px 0 0 40px;
 	float: left;
 	color: #FFF;
-	width: 50%;
+	width: 70%;
 	height: 50px;
 	text-align: left
 }
@@ -459,7 +455,7 @@ footer {
 	margin-right: 45px;
 	float: right;
 	color: #FFF;
-	width: 37%;
+	width: 200px;
 	height: 50px;
 }
 

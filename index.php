@@ -21,23 +21,27 @@ else $pagina="home";
 <meta name="keywords" content="<?php echo($claves->getValor()); ?>"/>
 <link rel="shortcut icon" href="images/<?php echo($favicon->getValor()); ?>"/>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="js/jquery.mCustomScrollbar.css" rel="stylesheet">
 <link href="js/fancybox.css" rel="stylesheet" type="text/css" />
 <link href="js/jquery.simplyscroll.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="js/coin-slider-styles.css" type="text/css" />
 <link href="SpryAssets/SpryCollapsiblePanel.css" rel="stylesheet" type="text/css" />
 
+
 <script type="text/javascript" src="SpryAssets/SpryCollapsiblePanel.js" ></script>
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.10.4.min.js"></script>
 <script type="text/javascript" src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/jquery.mCustomScrollbar.js" ></script>
+<script type="text/javascript" src="js/jqueryCycle.js" ></script>
 <script type="text/javascript" src="js/fancybox.js"></script>
 <script type="text/javascript" src="js/jquery.simplyscroll.js"></script>
 <script type="text/javascript" src="js/jquery.easing.js"></script>
 <script type="text/javascript" src="js/jquery.form.js"></script>
 <script type="text/javascript" src="js/coin-slider.js"></script>
-<script type="text/javascript" src="/js/jquery-ui-1.10.4.min.js"></script>
-<script type="text/javascript" src="js/jqueryCycle.js" ></script>
 
 <script type="text/javascript">
+
 
 $(document).ready(function() {
 
@@ -71,14 +75,19 @@ $(document).ready(function() {
 		autoMode: 'loop',
 		frameRate: 18
 	});
-	
+
 	$('#pics').cycle({ 
 		fx:    'fade', 
 	  	speed:  2000 
 	});
-
-});
 	
+	$("#ofert-sub").mCustomScrollbar({
+		theme:"rounded-dots",
+		scrollInertia:400
+	});
+	
+});
+
 </script>
 </head>
 
@@ -94,26 +103,32 @@ $(document).ready(function() {
 				<?php require_once ("loginUsuario.php"); ?>
 		        </div>
 		  	</div>
-			<div class="contenido">
+			<?php if ($pagina =="home"){?> 
 			Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc
-			<!-- <div class="contenidoa">
-				    <span class="titulo">Titulo aca</span>
-				    <br><br>
-					    Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc 
-					    cibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc <BR><BR>
-				    <a href="" class="boton-co">Ver mas</a></div>
-				   
-			    <div class="contenidob">
-			        <span class="titulo"><center>Titulo aca</center></span><br>
-			      <img src="images/logo-footer2.png"  class="contenidob-f" >Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc 
-			   </div>
-			</div> -->	
-		<?php require_once ($pagina.".php"); ?>
+			<div class="contenido">
+				<div class="contenidoa">
+				    <span class="titulo">Tempolink</span>
+				    <br/><br/>
+				    Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc 
+				    cibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc <BR><BR>
+				    <a href="" class="boton-co">Ver mas</a>
+				</div>
+			<?php }require_once ($pagina.".php"); ?>
+	         <?php if ($pagina =="home"){?> 	
+				<div class="contenidoa">
+			        <span class="titulo">Human Link</span>
+			         <br><br>
+			            Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc 
+			            cibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc <BR><BR>
+			            <a href="" class="boton-co">Ver mas</a>
+			    </div>
+			</div>
+			<?php }?>
 		</div>
 	</div>
-	<div class="widthWrap">
+<div class="widthWrap">
 		<?php require_once ("footer.php");?>
-	</div>	
+</div>
 </div>
 
 </body>

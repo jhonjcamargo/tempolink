@@ -9,7 +9,7 @@ $cargo = Cargos::cargar($_GET["cargo"]);
 $ofertas = Oferta::cargarXcargo($_GET["cargo"]);
 $numOfertas = count($ofertas);
 ?>
-<h3>Listado de ofertas: <?php echo($cargo->getNombre()); ?></h3>
+<h3>Listado de ofertas: <?php echo utf8_encode($cargo->getNombre()); ?></h3>
 <div class="homeText">
 	<?php if($numOfertas != 0){ ?>
 	<ul id="listadoOfertas">
@@ -17,10 +17,10 @@ $numOfertas = count($ofertas);
     	<li>
         	<div id="itemOferta">
                 <span class="cargo">
-                	<?php echo(trim($ofertas[$i]->getTitulo())); ?>
+                	<?php echo(trim(utf8_encode($ofertas[$i]->getTitulo()))); ?>
                 </span>
-                <p class="empresa"><?php echo(substr($ofertas[$i]->getDesc(), 0 , 150)); ?>...</p>
-                <a href="index.php?pag=oferta&id=<?php echo($ofertas[$i]->getId()); ?>">Ver mas</a>
+                <p class="empresa"><?php echo(substr(utf8_encode($ofertas[$i]->getDesc()), 0 , 150)); ?>...</p>
+                <a href="index.php?pag=oferta&id=<?php echo($ofertas[$i]->getId()); ?>">Ver más</a>
             </div>
         </li>
     	<?php  }?>
@@ -43,9 +43,9 @@ $numOfertas = count($ofertas);
     	<li>
         	<div id="itemOferta">
                 <span class="cargo">
-                	<?php echo(trim($ofertas[$i]->getTitulo())); ?>
+                	<?php echo(trim(utf8_encode($ofertas[$i]->getTitulo()))); ?>
                 </span>
-                <p class="empresa"><?php echo(substr($ofertas[$i]->getDesc(), 0 , 150)); ?>...</p>
+                <p class="empresa"><?php echo(substr(utf8_encode($ofertas[$i]->getDesc()), 0 , 150)); ?>...</p>
                 <a href="index.php?pag=oferta&id=<?php echo($ofertas[$i]->getId()); ?>">Ver mas</a>
             </div>
         </li>

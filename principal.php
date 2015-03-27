@@ -17,14 +17,15 @@
 		<div class="container">
 			<!-- Texto superior -->
 			<div class="txtSuperior">
-				<a href="#"><span>+ Contactenos</span></a>
+				<a href="index.php?pag=contacto"><span>+ Contactenos</span></a>
 				<span class="right"><a  href="index.php"><span>ir a tempolink + </span></a></span>
 			</div>
             
             
 			<div id="wrap" class="wrap">
 				<div class="estilo">
-					<img class="estilo__img" src="images/newimg/bogota.jpg" />
+					 <img class="estilo__img" src="images/slide/12.jpg" /> 
+					<!--<img class="estilo__img" src="images/newimg/principal.png" />-->
 					<div >
 						<ul id="centroDimensionar" class="centroDimensionar">
 							<li></li>							

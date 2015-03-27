@@ -28,9 +28,19 @@
         <p style="margin: 6px 0 0; font-size: 12px; color: #666;"> Todos los derechos reservados TEMPOLINK & HUMAN LINK.</p>
     </div>   
     <div class="footer-icons">
-    <a href="index.html" ><img src="images/twitter-gray.png" class="icons" width="48" height="48"></a>
-     <div class="icons"><a href="index.html"><img src="images/facebook-gray.png" width="48" height="48"></a></div>
-    
+	    <a href="index.html" >
+	    	<img src="images/twitter-gray.png" class="icons" width="48" height="48">
+	    </a>
+	    <div class="icons">
+	    	<a href="index.html">
+	    		<img src="images/facebook-gray.png" width="48" height="48">
+	    	</a>
+	    </div>
+	    <div class="logos" style="width: 237px; height: 82px; float: left; margin: -23px 5px;">
+		    <a href="index.html" >
+		    	<img src="images/LOGO-HUMAN-LINK.png">
+		    </a>
+	    </div>
     </div>
 
 </footer>
