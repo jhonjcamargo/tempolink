@@ -155,6 +155,41 @@ $pagina = Pagina::cargar($_GET['id']);
 	-moz-border-radius: 500px;
 	border-radius: 500px;
 }
+.centerCol {
+	float: left;
+	width: 90%;
+	margin: 0 5%;
+	position: relative;
+}
+
+.margin1 {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.col1 {
+	float: left;
+	width: 55%;
+	position: relative;
+}
+
+.col2 {
+	float: left;
+	width: 40%;
+	margin: 0 0 0 5%;
+	position: relative;
+}
+
+.t_center {
+	text-align: center !important;	
+}
+
+.icon1 {
+	display: inline-block;
+	width: 58px;
+	margin: 0 20px 0 0;
+	vertical-align: bottom;
+}
 </style>
 <script type="text/javascript">
 function squareSize(){
@@ -163,5 +198,5 @@ function squareSize(){
 	});
 </script>
 
-<!--  <h3><?php //echo ($pagina->getNombre()); ?></h3> -->
+<!--<h3><?php //echo ($pagina->getNombre()); ?></h3> --> 
 <?php echo html_entity_decode(utf8_encode($pagina->getContenido()))?>
