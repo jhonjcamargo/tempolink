@@ -77,7 +77,8 @@ $(document).ready(function() {
 	});
 
 	$('#pics').cycle({ 
-		fx:    'fade', 
+		fx:    'fade',
+		height: '200px', 
 	  	speed:  2000 
 	});
 	
@@ -109,18 +110,16 @@ $(document).ready(function() {
 				<div class="contenidoa">
 				    <span class="titulo">Tempolink</span>
 				    <br/><br/>
-				    Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc 
-				    cibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc <BR><BR>
+			        En TEMPOLINK reclutamos, seleccionamos y entregamos el mejor talento en misión que la compañía requiere, montando en conjunto con la gerencia la estrategia de selección necesaria para el sector o el tipo de organización a la que pertenece nuestro cliente.<BR><BR>
 				    <a href="index.php?pag=pagina&id=1&padre=1" class="boton-co">Ver mas</a>
 				</div>
 			<?php }require_once ($pagina.".php"); ?>
 	         <?php if ($pagina =="home"){?> 	
 				<div class="contenidoa">
 			        <span class="titulo">Human Link</span>
-			         <br><br>
-			            Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc 
-			            cibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc <BR><BR>
-			            <a href="index.php?pag=pagina&id=1&padre=1" class="boton-co">Ver mas</a>
+			        <br><br>
+				    En HUMANLINK somos expertos en el desarrollo de áreas de gestión humana, apoyándolas en todas las gestiones que corrientemente no pueden ser llevadas por la actividad día a día de las áreas. Actuamos como un ente consultor el cual gestionará el área a tal punto de ponerla en línea con el desarrollo del negocio y los lineamientos que presenta la directriz general de la compañía. <BR><BR>
+			        <a href="index.php?pag=pagina&id=1&padre=1" class="boton-co">Ver mas</a>
 			    </div>
 			</div>
 			<?php }?>
