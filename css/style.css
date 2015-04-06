@@ -229,17 +229,21 @@ tag_f {
 }
 
 .logosfooter {
-	width: 145px;
-  	height: 90px;
+	width: 150px;
+  	height: 85px;
   	float: right;
   	margin-right: 0px;
+}
+.imgicontec{
+	margin: 15px 0 0px 130px;
+	float: left;
 }
 
 .logosfooter img {
 	width: 100%;
 	height: auto;
 	float: left;
-	margin: 23% 0px;
+	margin: 10%;
 	
 }
 

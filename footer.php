@@ -52,8 +52,10 @@
 				</div>
 			</div>
 
-			<a class="logosfooter" href="#" > 
-			<img alt="" src="images/newimg/LOGO-HUMAN-LINK.png" />
+			<img class="imgicontec" alt="" src="images/newimg/icontec-iqnet.png" />
+			<a class="logosfooter" href="#" >
+			<img alt="" src="images/Tempolink_logo.png" />
+			<img alt="" src="images/newimg/hmlkFinal.png" />
 			</a>
 		</div>
 	</div>

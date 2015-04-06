@@ -101,7 +101,7 @@ $(document).ready(function() {
 				},
 			messages: {
 				txtNom: {
-					required: "El nombre es requerido"},
+					required: "*"},
 				txtApe: {
 					required: "El apellido es requerido"},
 				txtDir: {
