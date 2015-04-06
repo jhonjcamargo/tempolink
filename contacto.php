@@ -65,11 +65,13 @@
 	margin: 0 0 0 0;
 }
 
-.error-message, label.error {
-	color: #666;
-	margin-left: 5px;
+.error-message, p.error {
+	float: left;
+	height:0;
+	color: red;
+	margin: 29px 0 25px 16px ;
 	display: block;
-	font-size: 10px;
+	font-size: 17px;
 	font-weight: bold;
 	top: 0;
 }
@@ -97,27 +99,33 @@ $(document).ready(function() {
 					required: true,
 					email: true},
 				txtAsunto:{
-					required:true}
+					required:true} 
+					/*,
+				txtComent: {
+					required:true}*/
 				},
 			messages: {
 				txtNom: {
 					required: "*"},
 				txtApe: {
-					required: "El apellido es requerido"},
+					required: "*"},
 				txtDir: {
-					required: "La direccion es requerida"},
+					required: "*"},
 				txtPais:{
-					required: "El pais es requerido"},
+					required: "*"},
 				txtCiudad: {
-					required: "La ciudad es requerida"},
+					required: "*"},
 				txtTfno: {
-					required: "El telefono es requerido"},
+					required: "*"},
 				txtEmail:{
-					required: "El e-mail es requerido",
-					email: "E-mail incorrecto"},
+					required: "*",
+					email: "*"},
 				txtAsunto:{
-					required:"Determine el asunto de contacto"}
-				}
+					required:"*"}
+					/*,
+				txtComent:{
+					required:"*"}*/
+			}
 		});
 	
 	});
