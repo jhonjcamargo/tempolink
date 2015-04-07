@@ -196,6 +196,7 @@ function squareSize(){
 	$('.squareSize').each(function(){
 		$(this).css('height', $(this).width());
 	});
+}	
 </script>
 
 <!--<h3><?php //echo ($pagina->getNombre()); ?></h3> --> 

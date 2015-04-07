@@ -101,7 +101,7 @@ $(document).ready(function() {
 		<div class="widthWrap">
 			<div style="display:none;">
 				<div id="data">
-				<?php require_once ("loginUsuario.php"); ?>
+					<?php require_once ("loginUsuario.php"); ?>
 		        </div>
 		  	</div>
 			<?php if ($pagina =="home"){?> 

@@ -131,7 +131,6 @@ class Cargos implements iBaseDatos {
 	public function getNombre() {
         return $this->nombre;
     }
-
     
     public function setNombre( $_nombre) {
        if( strcmp( $this->nombre, $_nombre) != 0 ) {

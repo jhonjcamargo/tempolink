@@ -25,7 +25,7 @@ class Categorias implements iBaseDatos {
         try {
             $listado = array();
             $conexion = Conexion::getInstance();
-            $rs = $conexion->consulta("SELECT * FROM categoriasCargo");
+            $rs = $conexion->consulta("SELECT * FROM categoriascargo");
             foreach ($rs as $fila) {
                 array_push(
                     $listado,
@@ -46,7 +46,7 @@ class Categorias implements iBaseDatos {
 	public static function cargar( $_id ){
         try {
             $conexion = Conexion::getInstance();
-            $rs = $conexion->consulta("SELECT * FROM categoriasCargo WHERE id = $_id");
+            $rs = $conexion->consulta("SELECT * FROM categoriascargo WHERE id = $_id");
             if( count( $rs ) == 0 ){
                 throw new Exception();
             }
@@ -60,7 +60,7 @@ class Categorias implements iBaseDatos {
             throw $e;
         }
         catch (Exception $e ){
-            throw new MySQLException( "Registro no existe", 0, $e->getFile(), $e->getLine(), "SELECT * FROM categoriasCargo WHERE id = $_id");
+            throw new MySQLException( "Registro no existe", 0, $e->getFile(), $e->getLine(), "SELECT * FROM categoriascargo WHERE id = $_id");
         }
     }
 	
@@ -69,7 +69,7 @@ class Categorias implements iBaseDatos {
         try {
             $conexion = Conexion::getInstance();
             $consulta =
-                "INSERT INTO categoriasCargo SET ".
+                "INSERT INTO categoriascargo SET ".
 				"nombre = '".func_get_arg(0)."'";
 				
 			$conexion->consulta( $consulta );
@@ -87,7 +87,7 @@ class Categorias implements iBaseDatos {
 	public static function eliminar( $_id ){
         try {
             $conexion = Conexion::getInstance();
-            $conexion->consulta("DELETE FROM categoriasCargo WHERE id = $_id");
+            $conexion->consulta("DELETE FROM categoriascargo WHERE id = $_id");
 
         }
         catch (MySQLException $e ){
@@ -111,7 +111,7 @@ class Categorias implements iBaseDatos {
             $this->nombre = $_nombre;
             $conexion = Conexion::getInstance();
             $conexion->consulta(
-                "UPDATE categoriasCargo
+                "UPDATE categoriascargo
                 SET nombre = '".$this->nombre."'
                 WHERE id = ".$this->id);
         }
