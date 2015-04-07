@@ -16,6 +16,11 @@
         <tr>
         	<td class="item" align="right" colspan="2"><input type="submit" class="button" name="btnEnviar" id="btnEnviar" value="Ingresar" /></td>
         </tr>
+        <tr></tr>
+        <tr>
+            <td class="item"><a href="index.php?pag=registro" target="_blank">REGISTRO</a></td>
+            <td><a href="/admin/index.php" target="_blank">PORTAL ADMIN</a></td>
+        </tr>
     </table>
 </form>
 </div>

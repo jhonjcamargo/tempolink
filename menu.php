@@ -10,7 +10,7 @@ $numRedes = count($redes);
 ?>
 <div class="cont-menu"> 
   	<div class="logo">
-  		<a href="index.html"><img src="images/Tempolink_logo.png" width="149" height="18"></a>
+  		<a href="index.php"><img src="images/Tempolink_logo.png" width="149" height="18"></a>
   	</div>
   	<div class="sesion">
 	  	<?php if( !isset($_SESSION["usuarioTempo"]) ){?>

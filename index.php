@@ -105,7 +105,8 @@ $(document).ready(function() {
 		        </div>
 		  	</div>
 			<?php if ($pagina =="home"){?> 
-			Lorem ipsum ad his scripta blandit partiendo, eum fastidii accumsan euripidis in, eum liber hendrerit an. Qui ut wisi vocibus suscipiantur, quo dicit ridens inciderint id. Quo mundi lobortis reformidans eu, legimus senserit definiebas an eos. Eu sit tincidunt inc
+			<h1 style=" text-align:center; font-size: 25px; font-weight: bold; color: #333;">"LAS PERSONAS HACEN LA DIFERENCIA"</h1>
+<!-- 			<h3><a href="/admin/index.php" target="_blank">Entrar al portal</a></h3> -->
 			<div class="contenido">
 				<div class="contenidoa">
 				    <span class="titulo">Tempolink</span>

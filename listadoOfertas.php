@@ -133,9 +133,10 @@ $numOfertas = count($ofertas);
 <h3>Resultado filtro de ofertas: <?php echo utf8_encode($cargo->getNombre()); ?></h3>
 <div>
 	<p>Filtrar:</p>
-	<select>
+	<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+		<option> Seleccionar..</option>
 		<?php foreach ($cargos as $c){?>
-			<option> <?php echo utf8_encode($c->getNombre())?></option>
+			<option value="index.php?pag=listadoOfertas&cargo=<?php echo $c->getId();?>"> <?php echo utf8_encode($c->getNombre())?></option>
 		<?php }?>	
 	</select>
 </div> 
@@ -167,9 +168,10 @@ $numOfertas = count($ofertas);
 ?>
 <h3>Listado de ofertas</h3>
 <p>Filtrar:</p>
-<select>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+	<option> Seleccionar..</option>
 	<?php foreach ($cargos as $c){?>
-		<option> <?php echo utf8_encode($c->getNombre())?></option>
+		<option value="index.php?pag=listadoOfertas&cargo=<?php echo $c->getId();?>"> <?php echo utf8_encode($c->getNombre())?></option>
 	<?php }?>	
 </select>
  

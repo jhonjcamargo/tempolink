@@ -153,7 +153,7 @@ var mapOptions = {
                 	
 function initialize() {
     map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-    addMarker(4.675719, -74.055409);
+    addMarker(4.619998, -74.067699);
 	map.setOptions({styles: styleArray});
 	
 }
