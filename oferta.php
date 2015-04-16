@@ -8,7 +8,7 @@ $cargos =  Cargos::cargar($ofertas->getCargo());
 <div class="homeText">
 	<div style="color:#000; font-weight:bold;">CARGO: '<?php echo utf8_encode($cargos->getNombre()); ?>'</div><br />
     <?php echo utf8_encode($ofertas->getDesc()); ?>
-    <img src="images/ofertas/<?php echo($ofertas->getThumb()); ?>" alt="TempoLink" />
+    <!-- <img src="images/ofertas/<?php //echo($ofertas->getThumb()); ?>" alt="TempoLink" /> --> 
     <?php if( isset($_SESSION["usuarioTempo"]) ){?> 
     	<br /><a href="index.php?pag=postulacion&idO=<?php echo($ofertas->getId()); ?>&idU=<?php echo($_SESSION['idUsuario']); ?>">Postularme a esta oferta.</a>
 	<?php }?>

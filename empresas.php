@@ -118,7 +118,8 @@ $numClientes = count($cliente);
 			});
 		});
 	</script>
-<h3>EMPRESAS</h3>
+<h3>E-LEARNING</h3>
+<p>Para nosotros es importante mostrarle las empresas que cuentan con nuestro apayo para la busqueda de su talento humano.</p>
 <div class="widthWrap margin2 t_center">
         <?php foreach ($cliente as $c){ for ($i = 0; $i < 4; $i++) {?>
         	

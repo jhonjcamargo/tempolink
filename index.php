@@ -95,9 +95,9 @@ $(document).ready(function() {
 <body>
 <div class="contenedor">
 	<?php require_once ("menu.php"); ?>
-	<?php require_once ("rotador.php"); ?>
 	<!--   ************************************Contenido ************************ -->
 	 <div class="contenido2">
+	<?php require_once ("rotador.php"); ?>
 		<div class="widthWrap">
 			<div style="display:none;">
 				<div id="data">

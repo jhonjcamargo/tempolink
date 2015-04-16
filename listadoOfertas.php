@@ -85,12 +85,12 @@
 
 .ele-desc{
 	float:left;
-	text-align:left;
-	font-size:13px;
+	text-align: justify;
+	font-size:15px;
 	margin:2px;
 	padding:3px;
-	width:45%;
-	height:46px;
+	width:60%;
+	height: auto;
 	
 	}
 
@@ -115,6 +115,18 @@
 	font-weight:bold;
 	color:#A72626;
 	}
+.filtro{
+	width: auto;
+	height: auto;
+  	margin: 14px 52px;
+}
+
+.filtro p{
+	height: auto;
+	width: 75px;
+  	margin: 0;
+  	padding: 10px
+}
 
 </style>
 <?php 
@@ -131,7 +143,7 @@ $numOfertas = count($ofertas);
 ?>
 
 <h3>Resultado filtro de ofertas: <?php echo utf8_encode($cargo->getNombre()); ?></h3>
-<div>
+<div class="filtro">
 	<p>Filtrar:</p>
 	<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
 		<option> Seleccionar..</option>
@@ -145,7 +157,7 @@ $numOfertas = count($ofertas);
 	<div class="ele-fecha">Nombre</div>
 	<div class="ele-cat" style="color:#EFECEC">Categoria</div>
 	<div class="ele-desc"><center>Descripción</center></div>
-	<div class="ele-emp" style="color:#EFECEC">Imagen</div>
+	<!-- <div class="ele-emp" style="color:#EFECEC">Imagen</div> --> 
 </div>
 	<?php if($numOfertas != 0){ ?>
     	<?php for($i  = 0; $i < $numOfertas; $i++) { ?>
@@ -155,7 +167,7 @@ $numOfertas = count($ofertas);
                 <div class="ele-desc"><?php echo(substr(utf8_encode($ofertas[$i]->getDesc()), 0 , 150)); ?>...
                 	<a href="index.php?pag=oferta&id=<?php echo($ofertas[$i]->getId()); ?>" style="color: #A72626;   font-weight: bold;">Ver mas</a>
                 </div>
-                <div class="ele-emp"> <img src="images/ofertas/<?php echo($ofertas[$i]->getThumb()); ?>" alt="TempoLink" /> </div>
+                <!-- <div class="ele-emp"> <img src="images/ofertas/<?php //echo($ofertas[$i]->getThumb()); ?>" alt="TempoLink" /> </div> -->
      	</div>
     	<?php  }}else {?>
     	NO EXISTEN OFERTAS LABORALES ACTUALMENTE.
@@ -167,19 +179,20 @@ $categorias = Categorias::listado();
 $numOfertas = count($ofertas);
 ?>
 <h3>Listado de ofertas</h3>
-<p>Filtrar:</p>
-<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
-	<option> Seleccionar..</option>
-	<?php foreach ($cargos as $c){?>
-		<option value="index.php?pag=listadoOfertas&cargo=<?php echo $c->getId();?>"> <?php echo utf8_encode($c->getNombre())?></option>
-	<?php }?>	
-</select>
- 
+<div class="filtro">
+	<p>Filtrar:</p>
+	<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+		<option> Seleccionar..</option>
+		<?php foreach ($cargos as $c){?>
+			<option value="index.php?pag=listadoOfertas&cargo=<?php echo $c->getId();?>"> <?php echo utf8_encode($c->getNombre())?></option>
+		<?php }?>	
+	</select>
+</div>
 <div class="elemento-encab">
  	<div class="ele-fecha">Nombre</div>
 	<div class="ele-cat" style="color:#EFECEC">Categoria</div>
     <div class="ele-desc"><center>Descripción</center></div>
-    <div class="ele-emp" style="color:#EFECEC">Imagen</div>
+    <!-- <div class="ele-emp" style="color:#EFECEC">Imagen</div> --> 
 </div>
 	<?php if($numOfertas != 0){ ?>
     	<?php for($i  = 0; $i < $numOfertas; $i++) { ?>
@@ -189,7 +202,7 @@ $numOfertas = count($ofertas);
                 <div class="ele-desc"><?php echo(substr(utf8_encode($ofertas[$i]->getDesc()), 0 , 150)); ?>...
                 	<a href="index.php?pag=oferta&id=<?php echo($ofertas[$i]->getId()); ?>" style="color: #A72626;   font-weight: bold;">Ver mas</a>
                 </div>
-                <div class="ele-emp"> <img src="images/ofertas/<?php echo($ofertas[$i]->getThumb()); ?>" alt="TempoLink" /> </div>
+                <!-- <div class="ele-emp"> <img src="images/ofertas/<?php //echo($ofertas[$i]->getThumb()); ?>" alt="TempoLink" /> </div>-->
             </div>
     	<?php  }}else {?>
     	NO EXISTEN OFERTAS LABORALES ACTUALMENTE.

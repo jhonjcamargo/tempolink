@@ -178,6 +178,7 @@ $(function(){
 	<p>Para nosotros es muy importante conocer su opinión, por esto hemos
 		creado un formulario de contacto en el cual usted podrá comunicarse
 		con nosotros, estaremos complacidos en resolver sus inquietudes.</p>
+	<p>Nuestro portal le asegúra que sus datos estan protegidos por la Ley 1581 de 2012 Decreto 1377 de 2013, Para saber mas sobre esta pagina consultelo haciendo <a style="text-decoration: none;" href="http://www.colombiadigital.net/actualidad/articulos-informativos/item/5543-abc-para-proteger-los-datos-personales-ley-1581-de-2012-decreto-1377-de-2013.html" target="_blank">click aqui</a>. </p>	
 	<br />
 	<br />
 	<form class="formcontactos" name="formContacto" id="formContacto"
@@ -200,7 +201,7 @@ $(function(){
 
 	<div id="map-canvas"></div>
 </div>
-
+<!-- mibew button --><a href="/mibew/client.php?locale=es&amp;style=default" target="_blank" onclick="if(navigator.userAgent.toLowerCase().indexOf('opera') != -1 &amp;&amp; window.event.preventDefault) window.event.preventDefault();this.newWindow = window.open(&#039;/mibew/client.php?locale=es&amp;style=default&amp;url=&#039;+escape(document.location.href)+&#039;&amp;referrer=&#039;+escape(document.referrer), 'mibew', 'toolbar=0,scrollbars=0,location=0,status=1,menubar=0,width=640,height=480,resizable=1');this.newWindow.focus();this.newWindow.opener=window;return false;"><img src="/mibew/b.php?i=mblue&amp;lang=es" border="0" width="177" height="61" alt="" style="margin-top: 15px"/></a><!-- / mibew button -->
 <?php }
 else{ ?>
 <h3>Contáctenos</h3>

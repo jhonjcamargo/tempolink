@@ -1,17 +1,18 @@
 <div class="prefootera">
+<div class="contenidofooter">
 	<div class="wrapper">
 	
 		<div class="inside-prefa"> 
 			<div style="margin: 0 0px 0px 15px;">
 				<img alt="" src="/images/newimg/iconRH.png">
-				<span>Recursos Humanos</span><br><br>
+				<span>TEMPOLINK</span><br><br>
 			</div>
-	        Para nuestra compañia es muy importante la parte del reclutamiento para las empresas aliadas, por esta razon nos encargamos de realizar pruebas tecnicas y psicologicas para evaluar un excelente candidato. ¡No te quedes por Fuera Suscribete ahora!
+	        Reclutamos, seleccionamos y entregamos el mejor talento en misión que la compañía requiere, montando en conjunto con la gerencia la estrategia de selección necesaria para el sector o el tipo de organización a la que pertenece nuestro cliente
 	  	</div>
 	    <div class="inside-prefb">
 	    	<div style="margin: 0 0px 0px 15px;">
 				<img alt="" src="/images/newimg/adduser.png">
-	    		<span>Regístrate</span><br><br>
+	    		<span>HUMANLINK</span><br><br>
 	    	</div>	
 	    	Para que pueda acceder a nuestro portal de busqueda de empleo es necesario estar previamente registrado, para acceder a todas las propuestas ingresa al boton inferior.<br><br> 
 	    	<center><a href="index.php?pag=registro" class="boton-pf">Registrarse</a></center>
@@ -23,18 +24,24 @@
 	    	</div>	
 	    	Al mantener actualizada su hoja de vida, tienes mas opciones de ser seleccionado, por esta razon es necesario que actualices tu informacion.
 	    </div>
-	    <div class="inside-prefb">
-	    	<div style=" margin: 0 0px 0px 15px;">
-				<img alt="" src="/images/newimg/apply.png">
-	    		<span>¡Postulate!</span><br><br>
-	    	</div>	
-	        Para poder aplicar a las ofertas publicadas necesariamente tiene que iniciar sesión- 
-		</div><br>
-	</div>	
+	   	<div class="inside-prefb">
+<!-- 		<div style=" margin: 0 0px 0px 15px;">
+				<img alt="" src="/images/newimg/apply.png"> -->
+<!-- 	    		<span>¡Postulate!</span><br><br> -->
+<!-- 	    	</div> -->
+	    	<div class="icons">
+		    	<a href="http://www.fb.com" target="_blank">
+		    		<img src="images/facebook-gray.png" width="48" height="48">
+		    	</a>
+	   		</div>
+<!-- 	        Para poder aplicar a las ofertas publicadas necesariamente tiene que iniciar sesión-  -->
+		</div><br> 
+	</div>
 </div><!--fin prefootera-->
-
+</div>
 <!--   ************************************Footer ************************ -->
 <footer>
+<div class="contenidofooter">
 	<div class="wrapper">
 		<div class="Wddp">
 			<div class="tag_f">
@@ -51,16 +58,17 @@
 					<p class="italic">PBX: (571) 744 6224<br> Mail: comercial1@tempolink.com.co</p>
 				</div>
 			</div>
+			
 
 			<img class="imgicontec" alt="" src="images/newimg/icontec-iqnet.png" />
 			<a class="logosfooter" href="#" >
-			<img alt="" src="images/Tempolink_logo.png" />
-			<img alt="" src="images/newimg/hmlkFinal.png" />
+			<!-- <img alt="" src="images/Tempolink_logo.png" />-->
+			<img alt="" src="images/newimg/hmlkFinal.png" /> 
 			</a>
 		</div>
 	</div>
-
-
+</div>
+</footer>
 <!-- <div class="footer-txt">
     	<p style="color: #858585; font-weight: normal; font-size: 16px; width: 340px;">Contacto: comercial1@tempolink.com.co</p>
         <p style="margin: 6px 0 0; font-size: 12px; color: #666;"> Todos los derechos reservados TEMPOLINK & HUMAN LINK.</p>
@@ -81,7 +89,6 @@
 	    </div>
     </div> -->	
 
-</footer>
 
 <!-- <div id="footer">
 	<div id="innerfooter">

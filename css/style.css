@@ -175,15 +175,16 @@ table {
 
 body {
 	font-family: helvetica, arial, sans-serif;
-	background: url(../images/pattern_183.png) repeat;
+	/*background: url(../images/pattern_183.png) repeat;*/
+	background: #fff;
 	text-align: center;
 }
 
 .contenedor {
-	width: 1000px;
+	width: 100%;
 	margin: auto;
 	box-shadow: 3px 2px 5px;
-	background: #FFF !important;
+	background: url("/images/newimg/textura.png") repeat !important;
 }
 
 .widthWrap {
@@ -235,7 +236,6 @@ tag_f {
   	margin-right: 0px;
 }
 .imgicontec{
-	margin: 15px 0 0px 130px;
 	float: left;
 }
 
@@ -243,8 +243,7 @@ tag_f {
 	width: 100%;
 	height: auto;
 	float: left;
-	margin: 10%;
-	
+	margin-top: 25%;
 }
 
 .tag_f div h5 {
@@ -268,53 +267,65 @@ tag_f {
 /* MENU */
 .cont-menu {
 	width: auto;
-	background: #333;
-	height: 45px;
+	background: url("/images/newimg/menuimg.png") repeat !important;
+	height: 75px;
 }
 
 .seleccionado {
-	background: #717171;
+	background: #A72626;
 	float: left;
 	margin: 0;
 	padding: 14px 0 0 20px;
 	border-bottom: none;
-	color: #999;
+	color: #fff!important;
+}
+.logo {
+	float: left;
+	margin-top: 14px;
+	width: 200px;
+	border-bottom: none;
 }
 
-.logo {
-	background: #333;
-	float: left;
-	margin: 0;
-	padding: 14px 0 0 20px;
-	width: 80px;
+.logoimg{
+	width: 200px;
+  	height: 25px;
+}
+.logoder {
+	float: right;
+	margin: 14px 0;
+	width: 230px;
 	border-bottom: none;
-	color: #999;
 }
 
 .sesion {
 	float: left;
-	margin-top: 16px;
-	margin-left: 100px;
-	font-size: 11px;
-	color: #999;
+	margin-top: 20px;
+	margin-right: 15px;
+	font-size: 16px;
+	color: #A72626;
 }
 
 .sesion a {
-	color: #999;
+	color: #A72626;
 	text-decoration: none;
 }
 
 .menu {
-	background: #333;
-	float: right;
-	margin: 0;
+	float: left;
+	margin-top: 8px;
+	margin-bottom: 0;
+	margin-left: 5px;
 	padding: 0;
 	width: auto;
+	height:52px;
 	border-bottom: none;
+	font-size: 16px;
 }
 
 .menu li a, .menu li {
 	float: left;
+	width: auto;
+	height: auto;
 }
 
 .menu li {
@@ -325,19 +336,25 @@ tag_f {
 .menu li a {
 	padding: 13px 12px;
 	text-decoration: none;
-	color: #CCC;
-	border-right: 1px solid #3c3c3c;
-	border-left: 1px solid #292929;
-	border-bottom: 1px solid #232323;
-	border-top: 1px solid #545454;
+	color: #A72626;
 }
 
 .menu li a:hover {
-	background: #585858;
-	color: #999;
-	background: -moz-linear-gradient(top, #585858, #333);
-	background: -webkit-gradient(linear, left top, left bottom, from(#585858),
-		to(#333));
+	background: #A72626;
+	color: #fff!important;
+}
+
+.redes {
+	position: fixed;
+  	width: 40px;
+  	right: 10px;
+  	top: 60px
+}
+
+.redes img {
+	width: 30px;
+	height: 30px;
+	margin: 10px 0;
 }
 
 #banner {
@@ -355,7 +372,6 @@ tag_f {
 } 
  
 #pics img {  
-    border:  1px solid black;  
     background-color: red;  
     width:  100%; 
     height: 100%; 
@@ -371,7 +387,6 @@ tag_f {
 }
 
 .contenido2 {
-	background: url("/images/newimg/textura.png") repeat !important;
 	padding: 10px;
 	width: 900px;
 	color: #999;
@@ -382,6 +397,16 @@ tag_f {
 	min-height: 100%;
 	overflow-y: hidden;
 }
+.contenidofooter {
+	width: 900px;
+	color: #999;
+	font-size: 18px;
+	text-align: justify;
+	margin: auto;
+	min-height: 100%;
+	overflow-y: hidden;
+}
+
 
 .contenidoa {
 	width: 48%;
@@ -398,21 +423,19 @@ tag_f {
 	float:right;
 	padding:20px;
 	
-	
 }
 .contenidob-f{
 	width:90px;
 	height:90px;
 	float:left;
 	padding:0 5px 0 0;
-	
-	
 }
 
 .titulo {
 	font-size: 19px;
 	font-weight: bold;
-	color: #A72626;
+	color: #A72626!important;
+	text-transform: uppercase;
 }
 
 /**prefooter **/

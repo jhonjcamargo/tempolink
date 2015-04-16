@@ -18,7 +18,7 @@
 			<!-- Texto superior -->
 			<div class="txtSuperior">
 				<a href="index.php?pag=registro"><span>+ Ingrese su hoja de vida</span></a>
-				<span class="right"><a  href="index.php"><span>ir a tempolink + </span></a></span>
+				<span class="right"><a  href="index.php"><span>ir a Inicio + </span></a></span>
 			</div>
             
             
@@ -35,8 +35,9 @@
 						<h1>
 						<!-- <span>BIENVENIDO</span>
                         <a href="index.php" style="color:#FFF !important;">Humanlink</a> <i>En Tempolink desarrollamos en conjunto con la empresa, la estrategia de selección del talento humano y todo el proceso de contratación necesario para desarrollar la operación de nuestro cliente.<a href="#">Ola k mira, ola k kuenta..</a></i></h1> --> 
-                        <i>Nos encargamos de desarrollar estrategias en gestión humana para la potencializar el área, haciéndola llegar a ser Business Partner de la compañía</i>
+                        <i>Nos encargamos de desarrollar estrategias de gestión humana para potencializar el área, llevándola a ser Business Partner de la compañía</i>
                         <a href="index.php" style="color:#FFF !important;">Humanlink | Tempolink</a> </h1>
+                        <!-- <img alt="" src="images/newimg/hmlkFinal.png">|<img alt="" src="images/Tempolink_logo.png"> -->
 					</header>
 				</div>
 			</div>

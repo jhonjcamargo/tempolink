@@ -61,7 +61,10 @@ $numOfertas = count($ofertas);
 	clear: both;
 }
 
-.ofert-cont p{ margin: 5px 0; }
+.ofert-cont p{ 
+	margin: 5px 0; 
+  	font-size: 15px;
+}
 
 .ofert-cont h2{
 	font-family: "Oswald", sans-serif;
@@ -69,6 +72,7 @@ $numOfertas = count($ofertas);
 	font-style: normal;
 	text-align:center;
 	color:#A72626;
+	text-transform: uppercase;
 }
 
 /**************************************fin scrolbar*****************************/

@@ -62,6 +62,7 @@ $pagina = Pagina::cargar($_GET['id']);
 	font: 18px 'f1';
 	margin: 0 0 5px 0;
 	color:  #9e9e9e;
+	text-align: justify;
 }
 
 .text hr {
