@@ -178,7 +178,7 @@ $(function(){
 	<p>Para nosotros es muy importante conocer su opinión, por esto hemos
 		creado un formulario de contacto en el cual usted podrá comunicarse
 		con nosotros, estaremos complacidos en resolver sus inquietudes.</p>
-	<p>Nuestro portal le asegúra que sus datos estan protegidos por la Ley 1581 de 2012 Decreto 1377 de 2013, Para saber mas sobre esta pagina consultelo haciendo <a style="text-decoration: none;" href="http://www.colombiadigital.net/actualidad/articulos-informativos/item/5543-abc-para-proteger-los-datos-personales-ley-1581-de-2012-decreto-1377-de-2013.html" target="_blank">click aqui</a>. </p>	
+	<p>Nuestro portal le asegúra que sus datos estan protegidos por la Ley 1581 de 2012 Decreto 1377 de 2013, Para saber mas sobre esta pagina consultelo haciendo <a style="text-decoration: none;" href="http://www.sic.gov.co/drupal/sobre-la-proteccion-de-datos-personales" target="_blank">click aqui</a>. </p>	
 	<br />
 	<br />
 	<form class="formcontactos" name="formContacto" id="formContacto"
@@ -207,8 +207,7 @@ else{ ?>
 <h3>Contáctenos</h3>
 <div class="homeText">
 	<p>Sr(a). <?php echo($_GET["msg"]); ?>.<br />
-		<br />Gracias por contactarnos, muy pronto nos comunicaremos con
-		usted.
+		<br />Gracias por contactarnos, muy pronto nos comunicaremos con usted.
 	</p>
 </div>
 <?php } ?>

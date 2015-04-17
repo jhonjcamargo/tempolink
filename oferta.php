@@ -11,5 +11,8 @@ $cargos =  Cargos::cargar($ofertas->getCargo());
     <!-- <img src="images/ofertas/<?php //echo($ofertas->getThumb()); ?>" alt="TempoLink" /> --> 
     <?php if( isset($_SESSION["usuarioTempo"]) ){?> 
     	<br /><a href="index.php?pag=postulacion&idO=<?php echo($ofertas->getId()); ?>&idU=<?php echo($_SESSION['idUsuario']); ?>">Postularme a esta oferta.</a>
+	<?php }else {?>
+		<p style="color: red;" >Para aplicar a esta oferta debe estar subscrito a nuestro portal.</p>
+		<br /><a href="index.php?pag=registro">Registrarme!</a>
 	<?php }?>
 </div>

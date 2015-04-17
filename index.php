@@ -39,7 +39,7 @@ else $pagina="home";
 <script type="text/javascript" src="js/jquery.easing.js"></script>
 <script type="text/javascript" src="js/jquery.form.js"></script>
 <script type="text/javascript" src="js/coin-slider.js"></script>
-
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script type="text/javascript">
 
 
@@ -86,10 +86,24 @@ $(document).ready(function() {
 		theme:"rounded-dots",
 		scrollInertia:400
 	});
-	
+
+	$(document).ready(function(){
+	  $("#hide").click(function(){
+		  $("#show").show();
+		    $("#translate").hide();
+	  });
+	  $("#show").click(function(){
+	    $("#translate").show();
+	    $("#show").hide();
+	  });
+	});
 });
+function googleTranslateElementInit() {
+	  new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'en'}, 'google_translate_element');
+	}
 
 </script>
+
 </head>
 
 <body>
@@ -111,16 +125,22 @@ $(document).ready(function() {
 				<div class="contenidoa">
 				    <span class="titulo">Tempolink</span>
 				    <br/><br/>
-			        En TEMPOLINK reclutamos, seleccionamos y entregamos el mejor talento en misión que la compañía requiere, montando en conjunto con la gerencia la estrategia de selección necesaria para el sector o el tipo de organización a la que pertenece nuestro cliente.<BR><BR>
-				    <a href="index.php?pag=pagina&id=1&padre=1" class="boton-co">Ver mas</a>
+			        En TEMPOLINK reclutamos, seleccionamos y entregamos el mejor talento en misión que la compañía requiere, montando en conjunto con la gerencia la estrategia de selección necesaria para el sector o el tipo de organización a la que pertenece nuestro cliente.
+				   	</br></br>
+				    <div> 
+				    	<a href="index.php?pag=pagina&id=1&padre=1" class="boton-co">Ver mas</a>
+				    </div>
 				</div>
 			<?php }require_once ($pagina.".php"); ?>
 	         <?php if ($pagina =="home"){?> 	
 				<div class="contenidoa">
 			        <span class="titulo">Human Link</span>
 			        <br><br>
-				    En HUMANLINK somos expertos en el desarrollo de áreas de gestión humana, apoyándolas en todas las gestiones que corrientemente no pueden ser llevadas por la actividad día a día de las áreas. Actuamos como un ente consultor el cual gestionará el área a tal punto de ponerla en línea con el desarrollo del negocio y los lineamientos que presenta la directriz general de la compañía. <BR><BR>
-			        <a href="index.php?pag=pagina&id=1&padre=1" class="boton-co">Ver mas</a>
+				    En HUMANLINK somos expertos en el desarrollo de áreas de gestión humana, apoyándolas en todas las gestiones que corrientemente no pueden ser llevadas por la actividad día a día de las áreas. Actuamos como un ente consultor el cual gestionará el área a tal punto de ponerla en línea con el desarrollo del negocio y los lineamientos que presenta la directriz general de la compañía. 
+				    </br></br>
+				   <div>
+					    <a href="index.php?pag=pagina&id=1&padre=1" class="boton-co">Ver mas</a>
+					</div>	    
 			    </div>
 			</div>
 			<?php }?>

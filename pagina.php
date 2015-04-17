@@ -191,6 +191,61 @@ $pagina = Pagina::cargar($_GET['id']);
 	margin: 0 20px 0 0;
 	vertical-align: bottom;
 }
+
+.prod_txt {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin: 40px 0;
+}
+
+.cont_prod {
+  width: 100%;
+  height: 328px;
+  float: left;
+  text-align: center;
+  margin-bottom: 125px;
+}
+.cont_proda {
+  width: 264px;
+  height: 348px;
+  text-align: center;
+  margin: 0 5px 0 0;
+  position: relative;
+  display: inline-block;
+}
+.cont_proda h3 {
+  width: 100%;
+  height: auto;
+  float: left;
+  text-align: center;
+  font: 40px 'f1';
+  color: #5A585E;
+  margin: 20px;
+}
+.cont_proda:first-child {
+  margin: 0 152px 0 0;
+}
+.img_fond {
+  width: 100%;
+  height: 280px;
+  display: inline-block;
+  z-index: 3;
+  text-align: center;
+  position: relative;
+}
+.img_fondo {
+  width: 214px;
+  height: 214px;
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  overflow: hidden;
+  -webkit-border-radius: 107px;
+  -moz-border-radius: 107px;
+  border-radius: 107px;
+}
+
 </style>
 <script type="text/javascript">
 function squareSize(){
@@ -202,3 +257,4 @@ function squareSize(){
 
 <!--<h3><?php //echo ($pagina->getNombre()); ?></h3> --> 
 <?php echo html_entity_decode(utf8_encode($pagina->getContenido()))?>
+

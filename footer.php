@@ -3,13 +3,32 @@
 	<div class="wrapper">
 	
 		<div class="inside-prefa"> 
-			<div style="margin: 0 0px 0px 15px;">
-				<img alt="" src="/images/newimg/iconRH.png">
+			<div style="  text-align: center;">
+<!-- 				<img alt="" src="/images/newimg/iconRH.png"> -->
 				<span>TEMPOLINK</span><br><br>
 			</div>
 	        Reclutamos, seleccionamos y entregamos el mejor talento en misión que la compañía requiere, montando en conjunto con la gerencia la estrategia de selección necesaria para el sector o el tipo de organización a la que pertenece nuestro cliente
+	        </br>
+	        <center><a href="index.php?pag=contacto" class="boton-pf">Ver más.</a></center>
 	  	</div>
-	    <div class="inside-prefb">
+	  	<div class="inside-prefa"> 
+			<div style="text-align: center;">
+<!-- 				<img alt="" src="/images/newimg/iconRH.png"> -->
+				<span>HUMANLINK</span><br><br>
+			</div>
+	        Somos expertos en el desarrollo de áreas de gestión humana, actuamos como un ente consultor el cual gestionará el área a tal punto de ponerla en línea con el desarrollo del negocio y los lineamientos que presenta la directriz general de la compañía.
+	        </br>
+	        <center><a href="index.php?pag=contacto" class="boton-pf">Ver más.</a></center>
+	  	</div>
+	  	<div class="inside-prefa">
+	    	<div style="text-align: center;">
+<!-- 				<img alt="" src="/images/newimg/cv.png"> -->
+	    		<span>INGRESAR</br> HOJA DE VIDA</span><br><br>
+	    	</div>	
+	    	Al mantener actualizada su hoja de vida, usted tiene más oportunidades de ser seleccionado, por esta razon es necesario que tenga actualizada su infomracion y su perfil profesional.
+	    	<center><a href="index.php?pag=registro" class="boton-pf">Registrarse</a></center>
+	    </div>
+	<!--     <div class="inside-prefb">
 	    	<div style="margin: 0 0px 0px 15px;">
 				<img alt="" src="/images/newimg/adduser.png">
 	    		<span>HUMANLINK</span><br><br>
@@ -17,25 +36,19 @@
 	    	Para que pueda acceder a nuestro portal de busqueda de empleo es necesario estar previamente registrado, para acceder a todas las propuestas ingresa al boton inferior.<br><br> 
 	    	<center><a href="index.php?pag=registro" class="boton-pf">Registrarse</a></center>
 	    </div>
-	    <div class="inside-prefb">
-	    	<div style=" margin: 0 0px 0px 15px;">
-				<img alt="" src="/images/newimg/cv.png">
-	    		<span>Cargar C.V</span><br><br>
-	    	</div>	
-	    	Al mantener actualizada su hoja de vida, tienes mas opciones de ser seleccionado, por esta razon es necesario que actualices tu informacion.
-	    </div>
-	   	<div class="inside-prefb">
-<!-- 		<div style=" margin: 0 0px 0px 15px;">
+	    -->
+<!--	   	<div class="inside-prefc">
+ 		<div style=" margin: 0 0px 0px 15px;">
 				<img alt="" src="/images/newimg/apply.png"> -->
 <!-- 	    		<span>¡Postulate!</span><br><br> -->
-<!-- 	    	</div> -->
+<!-- 	    	</div> 
 	    	<div class="icons">
 		    	<a href="http://www.fb.com" target="_blank">
 		    		<img src="images/facebook-gray.png" width="48" height="48">
 		    	</a>
-	   		</div>
-<!-- 	        Para poder aplicar a las ofertas publicadas necesariamente tiene que iniciar sesión-  -->
-		</div><br> 
+	   		</div>-->
+<!-- 	        Para poder aplicar a las ofertas publicadas necesariamente tiene que iniciar sesión-  
+		</div><br> -->
 	</div>
 </div><!--fin prefootera-->
 </div>
@@ -63,7 +76,7 @@
 			<img class="imgicontec" alt="" src="images/newimg/icontec-iqnet.png" />
 			<a class="logosfooter" href="#" >
 			<!-- <img alt="" src="images/Tempolink_logo.png" />-->
-			<img alt="" src="images/newimg/hmlkFinal.png" /> 
+			<img alt="" src="images/newimg/HUMAN-LINKFinal.png" /> 
 			</a>
 		</div>
 	</div>

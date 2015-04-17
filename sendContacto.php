@@ -1,16 +1,5 @@
-<style>
-	body{
-		background-color:#F4F4F6;
-		font-family: "Calibri",Arial,Helvetica,Geneva,sans-serif;
-	}
-	#tablaGen{border-collapse: collapse; border:1px solid #D8D8DA; font-size: 12px;}
-	#tablaGen .cellGen{background: none repeat scroll 0 0 #E3E4E7; border-bottom: 1px solid #D8D8DA; padding: 5px 5px;}
-	#tablaInfo{border-collapse: collapse; font-size: 12px; margin:10px;}
-	#tablaInfo .cellInfo{background: none repeat scroll 0 0 #E3E4E7; border: 1px solid #D8D8DA; padding: 5px 5px;}
-	h5{color: #333333; font-size: 24px;}
-</style>
-<?
-$destinatario = "c.dreadcat@gmail.com";
+<?php
+$destinatario = "info@tempolink.com.co";
 $asunto = "Contacto TempoLink.com";
 $cuerpo = '
 <style>
@@ -24,11 +13,9 @@ $cuerpo = '
 	#tablaInfo .cellInfo{background: none repeat scroll 0 0 #E3E4E7; border: 1px solid #D8D8DA; padding: 5px 5px;}
 	h5{color: #333333; font-size: 24px;}
 </style>
-<html>
-<body>
 <table width="500" border="0" align="center" id="tablaGen">
   <tr>
-  	<td class="cellGen"><img src="http://www.agathagroup.com.co/tempoLink/images/tempoLinkMail.png"></td>
+  	<td class="cellGen"><img src="http://www.tempolink.com.co/images/Tempolink_logo.png"></td>
   </tr>
   <tr>
     <td class="cellGen">Se ha recibio un contacto desde TempoLink.com<br>
@@ -81,8 +68,6 @@ $cuerpo = '
 	 </td>
   </tr>
 </table>
-</body>
-</html>
 ';
 
 //para el envío en formato HTML
@@ -90,7 +75,7 @@ $headers = "MIME-Version: 1.0\r\n";
 $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
 
 //dirección del remitente
-$headers .= "From: noreply@tempolink.com.co\r\n";
+$headers .= "From: info@tempolink.com.co\r\n";
 
 //Direcciones que recibián copia
 //$headers .= "Cc: ejemplo@ejemplo.com\r\n";
@@ -99,11 +84,6 @@ $headers .= "From: noreply@tempolink.com.co\r\n";
 //$headers .= "Bcc: ejemplo@ejemplo.com\r\n";
 
 
-try{
-	mail($destinatario,$asunto,$cuerpo,$headers);
-	header('Location: /http://www.agathagroup.com.co/tempoLink/index.php?pag=contacto&msg='.$_POST["txtNom"]);
-}
-catch(Exception $e){
-	echo($e);
-}
-?> 
+mail($destinatario,$asunto,$cuerpo,$headers);
+header('Location: http://www.tempolink.com.co/index.php?pag=contacto&msg='.$_POST["txtNom"]);
+?>

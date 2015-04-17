@@ -230,20 +230,21 @@ tag_f {
 }
 
 .logosfooter {
-	width: 150px;
+	width: 190px;
   	height: 85px;
   	float: right;
   	margin-right: 0px;
 }
 .imgicontec{
 	float: left;
+	margin-top: 2%;
 }
 
 .logosfooter img {
 	width: 100%;
 	height: auto;
 	float: left;
-	margin-top: 25%;
+	margin-top: 20%;
 }
 
 .tag_f div h5 {
@@ -298,11 +299,12 @@ tag_f {
 }
 
 .sesion {
-	float: left;
-	margin-top: 20px;
-	margin-right: 15px;
+	float: right;
+	margin-top: 70px;
+	margin-right: 5px;
 	font-size: 16px;
 	color: #A72626;
+	width: 141px;
 }
 
 .sesion a {
@@ -348,7 +350,7 @@ tag_f {
 	position: fixed;
   	width: 40px;
   	right: 10px;
-  	top: 60px
+  	top: 0;
 }
 
 .redes img {
@@ -446,8 +448,7 @@ tag_f {
 
 .inside-prefa {
 	margin-top: 20px;
-	margin-left: 4%;
-	width: 25%;
+	width: 30%;
 	padding: 10px;
 	color: #E2E2E2;
 	float: left;
@@ -466,7 +467,19 @@ tag_f {
 
 .inside-prefb {
 	margin-top: 20px;
-	width: 18%;
+	width: 23%;
+	padding: 20px;
+	color: #E2E2E2;
+	float: left;
+	border-left: 1px solid #9D1515;
+	text-align: justify;
+	height: 200px;
+	font-size: 13px;
+}
+
+.inside-prefc {
+	margin-top: 20px;
+	width: 10%;
 	padding: 20px;
 	color: #E2E2E2;
 	float: left;
@@ -502,7 +515,7 @@ tag_f {
 .boton-pf {
 	border-radius: 2px;
 	padding: 8px;
-	margin-top: 15px;
+	float: right;
 	height: auto;
 	width: auto;
 	font-weight: bold;
@@ -560,6 +573,7 @@ footer {
 	height: 48px;
 	float: right;
 	padding: 5px;
+	margin: 50% 0;
 }
 
 .icons hover {
